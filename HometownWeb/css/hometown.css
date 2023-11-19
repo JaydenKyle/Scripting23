@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@300&display=swap');
+
+p {
+    font-family: 'Lora', serif;
+    text-transform: none;
+    text-rendering: optimizeLegibility;
+    text-align: left;
+    text-indent: 6%;
+    text-size-adjust: 7%;
+   
+}
+
+h1,h2,h3.h4 {
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    display:block;
+    background-color: #99B080;
+    color:white;
+    padding: 2% 4% 4% 4%;
+}
+  
+  /********************************************************Headers********************************************************/
+.masthead {
+  overflow:hidden;
+  height:50vh;
+  min-height: 250px;
+  background-image: url('../images/EnterAssiniboia.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.headerattraction{
+    overflow:hidden;
+    height:50vh;
+    min-height: 250px;
+    background-image: url('../images/BusinessCoOp.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.headergeography{
+    overflow:hidden;
+    height:50vh;
+    min-height: 250px;
+    background-image: url('../images/Windmill.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.headerhotel {
+    overflow:hidden;
+    height:50vh;
+    min-height: 250px;
+    background-image: url('../images/StreetBuild.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.headeresident {
+    overflow:hidden;
+    height:50vh;
+    min-height: 250px;
+    background-image: url('../images/Residents.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.headereference {
+    overflow:hidden;
+    height:50vh;
+    min-height: 250px;
+    background-image: url('../images/Parkinglot.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.centered {
+    position:absolute;
+    color:rgba(255, 255, 255, 0.973);
+    left: 49%;
+    transform: translate(-50%,-50% );
+    margin-top:8%;
+    background:none;
+    text-transform:uppercase;
+    font-weight: bold;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.175);
+    text-shadow: 0px 0px 2px rgba(0,0,0,0.175);
+}
+
+    /*********************************************************Footer**********************************/
+footer {
+    background-color:#99B080;
+    color:white;
+    padding:4%;
+    text-align: center;
+}
+
+
+/***************************************************Background colors********************************************/
+.bg-green {
+    background-color:#748E63;
+}
+
+.bg-lightgreen {
+    background-color:#99B080;
+}
+.bg-orange {
+    background-color:#F9B572;
+}
+
+/*************************************************navbar and links************************************************/
+.nav-link{
+color:white !important;
+}
+
+.navbar-brand {
+    color:#F9B572 !important;
+    background-blend-mode: difference;
+}
+
+a:hover {
+    color:#F9B572;
+}
+
+a:visted {
+    color:#F9B572;
+}
+
+a:link {
+    color:white;
+} 
+
+a {
+    color:white;
+}
+
+
+/*************************************************Icons************************************************/
+
+.fas {
+    padding:5px;
+}
+
+/*************************************************Cards*******************************************************/
+
+.card {
+    display:block;
+    background-color:#748E63;
+    color:white;
+    padding:5%;
+  min-height:auto;
+    min-width:auto;
+}
+
+
+.btn  {
+color:white;
+padding:2%;
+
+}
+
+/************************************************************8Carousel******************************************/
+
+.geocarousel{
+    margin-bottom:15%;
+}
+
+/******************************************************Reference Links*********************************************/
+
+li a:link{
+    color:black;
+}
+
+li a {
+    color:black;
+}
+
+li a:hover{
+    color: #748E63;
+
+}
+
+li a:visited {
+    color: #99B080;
+}
