@@ -1,0 +1,129 @@
+/*******************Fonts***********************/
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&family=Cinzel&family=Inconsolata&display=swap');
+
+
+/*****************************Header*********************/
+header{
+    padding:5%;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    background-image: url(../images/mushroomsGlowing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-weight: bold;
+}
+
+/*****************Main*********************/
+h2 {
+    font-family: 'Cinzel', serif;
+}
+h3 h4 {
+    padding-top:2%;
+    padding-bottom:6%;
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: small;
+    text-align: center;
+    
+}
+
+p{
+    font-family: 'Bodoni Moda', serif;
+    color:black;
+    text-transform: capitalize;
+    text-size-adjust: 5%;
+    text-align: center;
+}
+
+
+/**************************Form***********************/
+@keyframes colorschange {
+    0% {background-color:#09348a;}  
+    25%{background-color:#4278be;}
+    50%{background-color:#632284;}
+    75%{background-color:#9b62be;}
+    100%{background-color:#09348a;}  
+} 
+
+.form-group{
+    display:block;
+    background-color:#09348a;
+    color:white;
+    
+    border: 10px solid;
+    border-radius: 25px;
+    text-align: center;
+    animation-name: colorschange;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+}
+
+
+
+label {
+    background-color: white;
+    color:black;
+    display:block;
+    text-align: center;
+    padding:5%;
+    margin:4%;
+}
+
+
+
+.form-check{
+    background-color:white;
+    color:black;
+    margin:2%;
+    
+}
+
+
+/*************************8flex container********************************/
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  align-items:center;
+  align-content:space-around;
+  
+   
+  }
+
+  /*************************Footer**************************/
+
+  footer{
+    background-image: url(../images/glowButterfly.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+
+  }
+
+  a:hover{
+    Color:white;
+    text-decoration: none;
+  }
+
+  a:link{
+    Color: #205295;
+    text-decoration: none;
+  }
+
+  a:visited{
+    Color:#66347F;
+    text-decoration: none;
+  }
+
+  .background{
+    background-color:#205295;
+    color:white;
+    font-family: 'Bodoni Moda', serif;
+    text-size-adjust: 5%;
+  }
